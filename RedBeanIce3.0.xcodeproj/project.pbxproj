@@ -1,0 +1,691 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6717B5A72C6737060096F547 /* MapPreviewCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6717B5A62C6737060096F547 /* MapPreviewCards.swift */; };
+		678F58312C3193F1007D69BC /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678F58302C3193F1007D69BC /* FeedCell.swift */; };
+		678F58392C31AFEC007D69BC /* CustomVideoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678F58382C31AFEC007D69BC /* CustomVideoPlayer.swift */; };
+		67C1E5592C59417C006D3AF0 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C1E5582C59417C006D3AF0 /* MapView.swift */; };
+		67D4B08B2C268C06000625F1 /* RedBeanIce3_0App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D4B08A2C268C06000625F1 /* RedBeanIce3_0App.swift */; };
+		67D4B08D2C268C06000625F1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D4B08C2C268C06000625F1 /* ContentView.swift */; };
+		67D4B08F2C268C09000625F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67D4B08E2C268C09000625F1 /* Assets.xcassets */; };
+		67D4B0922C268C09000625F1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67D4B0912C268C09000625F1 /* Preview Assets.xcassets */; };
+		67D4B09C2C268C09000625F1 /* RedBeanIce3_0Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D4B09B2C268C09000625F1 /* RedBeanIce3_0Tests.swift */; };
+		67D4B0A62C268C09000625F1 /* RedBeanIce3_0UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D4B0A52C268C09000625F1 /* RedBeanIce3_0UITests.swift */; };
+		67D4B0A82C268C09000625F1 /* RedBeanIce3_0UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D4B0A72C268C09000625F1 /* RedBeanIce3_0UITestsLaunchTests.swift */; };
+		67D4B0B92C268F65000625F1 /* RestaurantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D4B0B82C268F65000625F1 /* RestaurantView.swift */; };
+		67D4B0BB2C268F71000625F1 /* ReelsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D4B0BA2C268F71000625F1 /* ReelsView.swift */; };
+		67D4B0BD2C268F7D000625F1 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D4B0BC2C268F7D000625F1 /* GameView.swift */; };
+		67D4B0BF2C268F8C000625F1 /* LanguageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D4B0BE2C268F8C000625F1 /* LanguageView.swift */; };
+		67D4B0C22C26912C000625F1 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D4B0C12C26912C000625F1 /* HomeView.swift */; };
+		67D4B0C42C26961A000625F1 /* RestaurantDetailedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D4B0C32C26961A000625F1 /* RestaurantDetailedView.swift */; };
+		67DBB53E2C296B6A00320384 /* GameDetailedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67DBB53D2C296B6A00320384 /* GameDetailedView.swift */; };
+		67EBDD092C2C6C580048DEF7 /* IndividualGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67EBDD082C2C6C580048DEF7 /* IndividualGameView.swift */; };
+		67EBDD0B2C2C6C640048DEF7 /* SummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67EBDD0A2C2C6C640048DEF7 /* SummaryView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		67D4B0982C268C09000625F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67D4B07F2C268C06000625F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67D4B0862C268C06000625F1;
+			remoteInfo = RedBeanIce3.0;
+		};
+		67D4B0A22C268C09000625F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67D4B07F2C268C06000625F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67D4B0862C268C06000625F1;
+			remoteInfo = RedBeanIce3.0;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6717B5A62C6737060096F547 /* MapPreviewCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapPreviewCards.swift; sourceTree = "<group>"; };
+		678F58302C3193F1007D69BC /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		678F58382C31AFEC007D69BC /* CustomVideoPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomVideoPlayer.swift; sourceTree = "<group>"; };
+		67C1E5582C59417C006D3AF0 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		67D4B0872C268C06000625F1 /* RedBeanIce3.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RedBeanIce3.0.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		67D4B08A2C268C06000625F1 /* RedBeanIce3_0App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedBeanIce3_0App.swift; sourceTree = "<group>"; };
+		67D4B08C2C268C06000625F1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		67D4B08E2C268C09000625F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		67D4B0912C268C09000625F1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		67D4B0972C268C09000625F1 /* RedBeanIce3.0Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RedBeanIce3.0Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		67D4B09B2C268C09000625F1 /* RedBeanIce3_0Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedBeanIce3_0Tests.swift; sourceTree = "<group>"; };
+		67D4B0A12C268C09000625F1 /* RedBeanIce3.0UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RedBeanIce3.0UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		67D4B0A52C268C09000625F1 /* RedBeanIce3_0UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedBeanIce3_0UITests.swift; sourceTree = "<group>"; };
+		67D4B0A72C268C09000625F1 /* RedBeanIce3_0UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedBeanIce3_0UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		67D4B0B82C268F65000625F1 /* RestaurantView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantView.swift; sourceTree = "<group>"; };
+		67D4B0BA2C268F71000625F1 /* ReelsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReelsView.swift; sourceTree = "<group>"; };
+		67D4B0BC2C268F7D000625F1 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		67D4B0BE2C268F8C000625F1 /* LanguageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageView.swift; sourceTree = "<group>"; };
+		67D4B0C12C26912C000625F1 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		67D4B0C32C26961A000625F1 /* RestaurantDetailedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDetailedView.swift; sourceTree = "<group>"; };
+		67DBB53D2C296B6A00320384 /* GameDetailedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameDetailedView.swift; sourceTree = "<group>"; };
+		67EBDD082C2C6C580048DEF7 /* IndividualGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndividualGameView.swift; sourceTree = "<group>"; };
+		67EBDD0A2C2C6C640048DEF7 /* SummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		67D4B0842C268C06000625F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67D4B0942C268C09000625F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67D4B09E2C268C09000625F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		67C1E5572C59413D006D3AF0 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				67C1E5582C59417C006D3AF0 /* MapView.swift */,
+				6717B5A62C6737060096F547 /* MapPreviewCards.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		67D4B07E2C268C06000625F1 = {
+			isa = PBXGroup;
+			children = (
+				67D4B0892C268C06000625F1 /* RedBeanIce3.0 */,
+				67D4B09A2C268C09000625F1 /* RedBeanIce3.0Tests */,
+				67D4B0A42C268C09000625F1 /* RedBeanIce3.0UITests */,
+				67D4B0882C268C06000625F1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		67D4B0882C268C06000625F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				67D4B0872C268C06000625F1 /* RedBeanIce3.0.app */,
+				67D4B0972C268C09000625F1 /* RedBeanIce3.0Tests.xctest */,
+				67D4B0A12C268C09000625F1 /* RedBeanIce3.0UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		67D4B0892C268C06000625F1 /* RedBeanIce3.0 */ = {
+			isa = PBXGroup;
+			children = (
+				67D4B08A2C268C06000625F1 /* RedBeanIce3_0App.swift */,
+				67D4B08C2C268C06000625F1 /* ContentView.swift */,
+				67D4B0C02C269120000625F1 /* Home */,
+				67D4B0B42C268EFC000625F1 /* Restaurant */,
+				67C1E5572C59413D006D3AF0 /* Map */,
+				67D4B0B52C268F17000625F1 /* Reels */,
+				67D4B0B62C268F1E000625F1 /* Game */,
+				67D4B0B72C268F35000625F1 /* Language */,
+				67D4B0902C268C09000625F1 /* Preview Content */,
+			);
+			path = RedBeanIce3.0;
+			sourceTree = "<group>";
+		};
+		67D4B0902C268C09000625F1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				67D4B0912C268C09000625F1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		67D4B09A2C268C09000625F1 /* RedBeanIce3.0Tests */ = {
+			isa = PBXGroup;
+			children = (
+				67D4B09B2C268C09000625F1 /* RedBeanIce3_0Tests.swift */,
+			);
+			path = RedBeanIce3.0Tests;
+			sourceTree = "<group>";
+		};
+		67D4B0A42C268C09000625F1 /* RedBeanIce3.0UITests */ = {
+			isa = PBXGroup;
+			children = (
+				67D4B0A52C268C09000625F1 /* RedBeanIce3_0UITests.swift */,
+				67D4B0A72C268C09000625F1 /* RedBeanIce3_0UITestsLaunchTests.swift */,
+			);
+			path = RedBeanIce3.0UITests;
+			sourceTree = "<group>";
+		};
+		67D4B0B42C268EFC000625F1 /* Restaurant */ = {
+			isa = PBXGroup;
+			children = (
+				67D4B0B82C268F65000625F1 /* RestaurantView.swift */,
+				67D4B0C32C26961A000625F1 /* RestaurantDetailedView.swift */,
+				67D4B08E2C268C09000625F1 /* Assets.xcassets */,
+			);
+			path = Restaurant;
+			sourceTree = "<group>";
+		};
+		67D4B0B52C268F17000625F1 /* Reels */ = {
+			isa = PBXGroup;
+			children = (
+				67D4B0BA2C268F71000625F1 /* ReelsView.swift */,
+				678F58302C3193F1007D69BC /* FeedCell.swift */,
+				678F58382C31AFEC007D69BC /* CustomVideoPlayer.swift */,
+			);
+			path = Reels;
+			sourceTree = "<group>";
+		};
+		67D4B0B62C268F1E000625F1 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				67D4B0BC2C268F7D000625F1 /* GameView.swift */,
+				67DBB53D2C296B6A00320384 /* GameDetailedView.swift */,
+				67EBDD082C2C6C580048DEF7 /* IndividualGameView.swift */,
+				67EBDD0A2C2C6C640048DEF7 /* SummaryView.swift */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		67D4B0B72C268F35000625F1 /* Language */ = {
+			isa = PBXGroup;
+			children = (
+				67D4B0BE2C268F8C000625F1 /* LanguageView.swift */,
+			);
+			path = Language;
+			sourceTree = "<group>";
+		};
+		67D4B0C02C269120000625F1 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				67D4B0C12C26912C000625F1 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		67D4B0862C268C06000625F1 /* RedBeanIce3.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67D4B0AB2C268C09000625F1 /* Build configuration list for PBXNativeTarget "RedBeanIce3.0" */;
+			buildPhases = (
+				67D4B0832C268C06000625F1 /* Sources */,
+				67D4B0842C268C06000625F1 /* Frameworks */,
+				67D4B0852C268C06000625F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RedBeanIce3.0;
+			productName = RedBeanIce3.0;
+			productReference = 67D4B0872C268C06000625F1 /* RedBeanIce3.0.app */;
+			productType = "com.apple.product-type.application";
+		};
+		67D4B0962C268C09000625F1 /* RedBeanIce3.0Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67D4B0AE2C268C09000625F1 /* Build configuration list for PBXNativeTarget "RedBeanIce3.0Tests" */;
+			buildPhases = (
+				67D4B0932C268C09000625F1 /* Sources */,
+				67D4B0942C268C09000625F1 /* Frameworks */,
+				67D4B0952C268C09000625F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67D4B0992C268C09000625F1 /* PBXTargetDependency */,
+			);
+			name = RedBeanIce3.0Tests;
+			productName = RedBeanIce3.0Tests;
+			productReference = 67D4B0972C268C09000625F1 /* RedBeanIce3.0Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		67D4B0A02C268C09000625F1 /* RedBeanIce3.0UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67D4B0B12C268C09000625F1 /* Build configuration list for PBXNativeTarget "RedBeanIce3.0UITests" */;
+			buildPhases = (
+				67D4B09D2C268C09000625F1 /* Sources */,
+				67D4B09E2C268C09000625F1 /* Frameworks */,
+				67D4B09F2C268C09000625F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67D4B0A32C268C09000625F1 /* PBXTargetDependency */,
+			);
+			name = RedBeanIce3.0UITests;
+			productName = RedBeanIce3.0UITests;
+			productReference = 67D4B0A12C268C09000625F1 /* RedBeanIce3.0UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		67D4B07F2C268C06000625F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					67D4B0862C268C06000625F1 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					67D4B0962C268C09000625F1 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 67D4B0862C268C06000625F1;
+					};
+					67D4B0A02C268C09000625F1 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 67D4B0862C268C06000625F1;
+					};
+				};
+			};
+			buildConfigurationList = 67D4B0822C268C06000625F1 /* Build configuration list for PBXProject "RedBeanIce3.0" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 67D4B07E2C268C06000625F1;
+			productRefGroup = 67D4B0882C268C06000625F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				67D4B0862C268C06000625F1 /* RedBeanIce3.0 */,
+				67D4B0962C268C09000625F1 /* RedBeanIce3.0Tests */,
+				67D4B0A02C268C09000625F1 /* RedBeanIce3.0UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		67D4B0852C268C06000625F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67D4B0922C268C09000625F1 /* Preview Assets.xcassets in Resources */,
+				67D4B08F2C268C09000625F1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67D4B0952C268C09000625F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67D4B09F2C268C09000625F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		67D4B0832C268C06000625F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6717B5A72C6737060096F547 /* MapPreviewCards.swift in Sources */,
+				67D4B0BB2C268F71000625F1 /* ReelsView.swift in Sources */,
+				67D4B0C22C26912C000625F1 /* HomeView.swift in Sources */,
+				67DBB53E2C296B6A00320384 /* GameDetailedView.swift in Sources */,
+				67EBDD092C2C6C580048DEF7 /* IndividualGameView.swift in Sources */,
+				67D4B08D2C268C06000625F1 /* ContentView.swift in Sources */,
+				678F58312C3193F1007D69BC /* FeedCell.swift in Sources */,
+				67D4B08B2C268C06000625F1 /* RedBeanIce3_0App.swift in Sources */,
+				67C1E5592C59417C006D3AF0 /* MapView.swift in Sources */,
+				67D4B0B92C268F65000625F1 /* RestaurantView.swift in Sources */,
+				67D4B0BF2C268F8C000625F1 /* LanguageView.swift in Sources */,
+				678F58392C31AFEC007D69BC /* CustomVideoPlayer.swift in Sources */,
+				67D4B0BD2C268F7D000625F1 /* GameView.swift in Sources */,
+				67D4B0C42C26961A000625F1 /* RestaurantDetailedView.swift in Sources */,
+				67EBDD0B2C2C6C640048DEF7 /* SummaryView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67D4B0932C268C09000625F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67D4B09C2C268C09000625F1 /* RedBeanIce3_0Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67D4B09D2C268C09000625F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67D4B0A62C268C09000625F1 /* RedBeanIce3_0UITests.swift in Sources */,
+				67D4B0A82C268C09000625F1 /* RedBeanIce3_0UITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		67D4B0992C268C09000625F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67D4B0862C268C06000625F1 /* RedBeanIce3.0 */;
+			targetProxy = 67D4B0982C268C09000625F1 /* PBXContainerItemProxy */;
+		};
+		67D4B0A32C268C09000625F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67D4B0862C268C06000625F1 /* RedBeanIce3.0 */;
+			targetProxy = 67D4B0A22C268C09000625F1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		67D4B0A92C268C09000625F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		67D4B0AA2C268C09000625F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		67D4B0AC2C268C09000625F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RedBeanIce3.0/Preview Content\"";
+				DEVELOPMENT_TEAM = C2486TNLRR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Red Bean Ice";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.percy.RedBeanIce3-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		67D4B0AD2C268C09000625F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RedBeanIce3.0/Preview Content\"";
+				DEVELOPMENT_TEAM = C2486TNLRR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Red Bean Ice";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.percy.RedBeanIce3-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		67D4B0AF2C268C09000625F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.percy.RedBeanIce3-0Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RedBeanIce3.0.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RedBeanIce3.0";
+			};
+			name = Debug;
+		};
+		67D4B0B02C268C09000625F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.percy.RedBeanIce3-0Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RedBeanIce3.0.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RedBeanIce3.0";
+			};
+			name = Release;
+		};
+		67D4B0B22C268C09000625F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.percy.RedBeanIce3-0UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RedBeanIce3.0;
+			};
+			name = Debug;
+		};
+		67D4B0B32C268C09000625F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.percy.RedBeanIce3-0UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RedBeanIce3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		67D4B0822C268C06000625F1 /* Build configuration list for PBXProject "RedBeanIce3.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67D4B0A92C268C09000625F1 /* Debug */,
+				67D4B0AA2C268C09000625F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67D4B0AB2C268C09000625F1 /* Build configuration list for PBXNativeTarget "RedBeanIce3.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67D4B0AC2C268C09000625F1 /* Debug */,
+				67D4B0AD2C268C09000625F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67D4B0AE2C268C09000625F1 /* Build configuration list for PBXNativeTarget "RedBeanIce3.0Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67D4B0AF2C268C09000625F1 /* Debug */,
+				67D4B0B02C268C09000625F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67D4B0B12C268C09000625F1 /* Build configuration list for PBXNativeTarget "RedBeanIce3.0UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67D4B0B22C268C09000625F1 /* Debug */,
+				67D4B0B32C268C09000625F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 67D4B07F2C268C06000625F1 /* Project object */;
+}
