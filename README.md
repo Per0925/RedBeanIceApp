@@ -1,6 +1,6 @@
 # Red Bean Ice App
 ### Objective
-This app aims to promote one of the most iconic beverage in Hong Kong, Red Bean Ice. The four main features impelmented in the app are as follows:
+This app aims to promote one of the most iconic beverage in Hong Kong, Red Bean Ice. The five main features impelmented in the app are as follows:
 #### Homepage
 * Allowing users to select the feature to be explored
 #### Red Bean Ice Searcher
