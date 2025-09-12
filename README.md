@@ -9,7 +9,7 @@ This app aims to promote one of the most iconic beverage in Hong Kong, Red Bean 
 #### Red Bean Ice Map
 * Allowing users to select restaurants providing Red Bean Ice in a certain location
 #### Red Bean Ice Reels
-* Allowing users to watch short videos about Red Bean Ice
+* Allowing users to watch short videos about Red Bean Ice (Template videos are used for demonstration)
 #### Red Bean Ice Mini Game
 * Allowing users to know more about the drink through a short quiz
   
