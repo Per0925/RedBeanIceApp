@@ -22,15 +22,9 @@ struct Reel: Identifiable, Codable{
 }
 
 class ReelsManager: ObservableObject{
-    /*
     var reelsList = [
         Reel(videoUrl: "https://storage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4", title: "test video 1", author: "cct_percy"),
         Reel(videoUrl: "https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4", title: "test video 2", author: "cuhk_programmer")]
-     */
-    var reelsList = [
-        Reel(videoUrl: "https://drive.google.com/uc?export=download&id=15tgc3aSNDScbbPySpK_ZH5FwbhB69aW1", title: "紅豆冰食評", author: "Adrian"),
-        Reel(videoUrl: "https://drive.google.com/uc?id=1IAu9kg99A-nhltl7c-ApKrLKhJNbTsfL", title: "紅豆冰製作", author: "Jeffery")]
-    
     
 }
 
